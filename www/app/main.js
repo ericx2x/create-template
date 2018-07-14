@@ -7,6 +7,9 @@ define(function (require) {
     // Load library/vendor modules using
     // full IDs, like:
     var print = require('print');
+    var alertt = require('alert');
+
+    alertt("my message");
 
     print(messages.getHello());
 });
